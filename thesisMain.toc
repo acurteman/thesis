@@ -12,6 +12,7 @@
 \contentsline {section}{\numberline {2.2}Classic Lithic Morphology}{3}
 \contentsline {section}{\numberline {2.3}Current Technological Application}{3}
 \contentsline {chapter}{\numberline {3}}{4}
-\contentsline {section}{\numberline {3.1}Creation of the Three-dimensional Models}{4}
-\contentsline {section}{\numberline {3.2}GLiMR}{4}
-\contentsline {section}{\numberline {3.3}Statistical Analyses}{4}
+\contentsline {section}{\numberline {3.1}Artifact Selection}{4}
+\contentsline {section}{\numberline {3.2}Creation of the Three-dimensional Models}{4}
+\contentsline {section}{\numberline {3.3}GLiMR}{5}
+\contentsline {section}{\numberline {3.4}Statistical Analyses}{5}
