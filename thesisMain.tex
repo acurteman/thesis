@@ -1,0 +1,160 @@
+\documentclass[12pt,letterpaper,oneside]{book}
+\usepackage[top=1.2in, bottom=1in, left=1.5in, right=1in]{geometry}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{setspace}
+\doublespacing
+\usepackage{natbib}
+\usepackage[version=3]{mhchem}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage[final]{pdfpages}
+\usepackage{graphics}
+\usepackage[titletoc]{appendix}
+\usepackage{textcomp}
+\usepackage{soul}
+
+% Creates Table of Contents (Continued) heading.
+\usepackage{afterpage}
+\DeclareRobustCommand*{\contheading}{%
+\afterpage{{\large\centering 
+TABLE OF CONTENTS (Continued)\par\bigskip}}}
+
+\author{Alexander J. Curteman}
+\title{A Morphometric Examination of Lithic Artifacts from the Pilcher Creek Site (35UN147) using GLiMR: GIS-based Lithic Morphometric Research}
+\date{25th May, 2016}
+
+\selectlanguage{english}%
+
+\setcounter{tocdepth}{2}
+
+% Flyleaf, a blankpage
+\newcommand{\flyleaf}{\thispagestyle{empty}\phantom{}\newpage}
+
+\newcommand{\emptyline}{\mbox{}\newline}
+
+\begin{document}
+\frontmatter
+\pagenumbering{gobble}
+
+%Creates Flyleaf blankpage
+%\clearpage\mbox{}\clearpage
+\flyleaf
+
+% Abstract Page
+\begin{center}
+AN ABSTRACT OF THE THESIS OF
+\end{center}
+\begin{flushleft}
+\noindent
+\ul{Alexander J. Curteman} for the degree of \ul{Master of Arts} in \ul{Applied Anthropology},  presented \ul{IN THE FUTURE}.\\
+\emptyline
+\noindent Title: \ul{A Morphometric Examination of Lithic Artifacts from the Pilcher Creek Site (35UN147) using GLiMR: GIS-based Lithic Morphometric Research}.\par\vskip1cm
+\end{flushleft}
+\emptyline
+Abstract approved: \hrulefill \\
+\phantom{Abstract approved:\ }Loren G. Davis
+\vspace{1em}
+\noindent
+\emptyline
+\emptyline
+Insert of very long and well thought out abstract here, that will make minds be blown.
+\clearpage
+
+% Copyright Page
+\begin{singlespace}
+\thispagestyle{empty}
+\vspace*{10\baselineskip}
+\begin{center}
+\textcopyright Copyright by Alexander J. Curteman\\
+INSERT DATE HERE\\
+All Rights Reserved
+\end{center}
+\end{singlespace}
+\clearpage
+
+% Title Page
+\thispagestyle{empty}
+\begin{center}
+\setlength{\baselineskip}{14.5pt}
+\begin{singlespace}
+A Morphometric Examination of Lithic Artifacts from the Pilcher Creek Site (35UN147) using GLiMR: GIS-based Lithic Morphometric Research \\
+\end{singlespace}
+\emptyline by\\ \emptyline
+Alexander J. Curteman\\
+\vfill
+A THESIS\\ \emptyline
+submitted to\\ \emptyline
+Oregon State University\\
+\vfill
+in partial fulfillment of\\
+the requirements for the\\
+degree of\\ \emptyline
+Master of Arts in Applied Anthropology
+\vfill
+Presented INSERT DATE HERE\\
+Commencement June 2017
+\end{center}
+\clearpage
+
+%Approval Page
+\thispagestyle{empty}
+\begin{singlespace}
+\begin{flushleft}
+\noindent
+\ul{Master of Arts in Applied Anthropology} thesis of \ul{Alexander J. Curteman} presented on \ul{INSERT DATE HERE}.\\
+\vspace{3em}
+APPROVED:\\
+\vspace{3em}
+\hrulefill \\
+Major Professor, representing Applied Anthropology\\
+\vspace{3em}
+\hrulefill \\
+Director of the Interdisciplinary Studies Program\\
+\vspace{3em}
+\hrulefill \\
+Dean of the Graduate School\\
+\vfill
+I understand that my thesis will become part of the permanent collection of Oregon State University libraries. My signature below authorizes release of my thesis to any reader upon request.
+\vspace{3em} \\
+\hrulefill \\
+\makebox[\textwidth]{\hfill Alexander J. Curteman, Author \hfill}
+\end{flushleft}
+\end{singlespace}
+\clearpage
+
+%Acknowledgments Page
+\chapter*{}
+\begin{center}\large
+ACKNOWLEDGMENTS
+\end{center}
+Here I will write, with great poetic prose, about all the wonderful people without whom I would not have been able to accomplish this task.
+\clearpage
+
+% Table of Contents
+\renewcommand\contentsname{\normalfont\large{\hfill TABLE OF CONTENTS \hfill}}
+\addtocontents{toc}{\contheading}
+\tableofcontents
+\addtocontents{toc}{~\hfill{\ul{Page}}\par}
+\makeatletter
+\addtocontents{toc}{\protect\afterpage{\protect\hbox to \linewidth%
+                    {~\hfill{\ul{Page}}}\par%
+                    \protect\addvspace{10\p@}}}
+\makeatother
+\clearpage
+
+\mainmatter
+\include{Chapter1}
+\include{Chapter2}
+\include{Chapter3}
+%\include{Chapter4}
+%\include{Chapter5}
+
+\end{document}

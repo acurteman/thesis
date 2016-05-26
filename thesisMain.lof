@@ -1,0 +1,5 @@
+\select@language {english}
+\select@language {english}
+
+{~\textul {Figure}}~\hfill {\textul {Page}}\par 
+\afterpage {\hbox to \linewidth {{~\textul {Figure}}~\hfill {\textul {Page}}}\par \addvspace {10\p@ }}

@@ -1,0 +1,17 @@
+\select@language {english}
+\select@language {english}
+\contheading 
+~\hfill {\textul {Page}}\par 
+\afterpage {\hbox to \linewidth {~\hfill {\textul {Page}}}\par \addvspace {10\p@ }}
+\contentsline {chapter}{\numberline {1}}{1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}
+\contentsline {section}{\numberline {1.2}Significance}{2}
+\contentsline {section}{\numberline {1.3}Research Goals and Questions}{2}
+\contentsline {chapter}{\numberline {2}}{3}
+\contentsline {section}{\numberline {2.1}Pilcher Creek (35UN147)}{3}
+\contentsline {section}{\numberline {2.2}Classic Lithic Morphology}{3}
+\contentsline {section}{\numberline {2.3}Current Technological Application}{3}
+\contentsline {chapter}{\numberline {3}}{4}
+\contentsline {section}{\numberline {3.1}Creation of the Three-dimensional Models}{4}
+\contentsline {section}{\numberline {3.2}GLiMR}{4}
+\contentsline {section}{\numberline {3.3}Statistical Analyses}{4}
